@@ -1,0 +1,64 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo i {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 3px solid;
+}
+.menu-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.banner {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.logo-title{
+    font-size: 30px;
+}
+.img img {
+  border-radius: 100%;
+  border: 5px solid gray;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 20px;
+    background: green;
+    color: white;
+    border-radius: 10px;
+}
+.two-btn{
+    display: flex;
+    gap: 14px;
+}
+.btn-1{
+    background: green;
+
+}
+.span{
+    color: green;
+}
+
+.title h2{
+    font-size: 40px;
+}
