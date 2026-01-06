@@ -2,63 +2,84 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+  background: #fafaf5;
+    font-family: "Inter", sans-serif;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-
+.logo {
+  display: flex;
+  align-items: center;
 }
 .logo i {
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-    border: 3px solid;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: 3px solid;
 }
 .menu-list {
   display: flex;
   gap: 20px;
   list-style: none;
+  font-size: 20px;
+  color: rgb(109, 106, 106);
 }
 
 .banner {
-  margin-top: 70px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   gap: 50px;
 }
-.logo-title{
-    font-size: 30px;
+.logo-title {
+  font-size: 25px;
+  margin-left: 5px;
 }
 .img img {
   border-radius: 100%;
-  border: 5px solid gray;
+  width: 500px;
+  height: full;
 }
 
-.btn{
-    padding: 5px 15px;
-    margin: 20px;
-    background: green;
-    color: white;
-    border-radius: 10px;
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-.two-btn{
-    display: flex;
-    gap: 14px;
+.btn {
+  background-color: #65bb73;
+  color: #000;
+  border: none;
+  padding: 10px 25px;
 }
-.btn-1{
-    background: green;
+.two-btn {
+  display: flex;
+  gap: 15px;
+}
+.btn-1 {
+  background-color: #65bb73;
+  color: #000;
+  border: none;
+  padding: 7px 20px;
+}
+.btn-2 {
+  padding: 7px 20px;
+}
+.span {
+  color: #65bb73;
+  font-style: italic;
+}
 
+.title h2 {
+  font-size: 40px;
 }
-.span{
-    color: green;
-}
-
-.title h2{
-    font-size: 40px;
+.description {
+  font-size: 20px;
+  color: rgb(139, 137, 137);
 }
