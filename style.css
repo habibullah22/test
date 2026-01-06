@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .logo {
@@ -24,9 +25,9 @@ body {
 }
 .menu-list {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(109, 106, 106);
 }
 
@@ -57,6 +58,7 @@ body {
   color: #000;
   border: none;
   padding: 10px 25px;
+  border-radius: 10px;
 }
 .two-btn {
   display: flex;
@@ -81,5 +83,23 @@ body {
 }
 .description {
   font-size: 20px;
+  color: rgb(139, 137, 137);
+}
+
+/* 2nd section start  */
+.two-container{
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.img-2 img{
+  width: 600px;
+}
+.des-2{
+  width: 50%;
+  font-size: 30px;
   color: rgb(139, 137, 137);
 }
