@@ -4,6 +4,7 @@ body {
   padding: 0 24px;
   background: #fafaf5;
     font-family: "Inter", sans-serif;
+    background-color: rgb(238, 243, 238);
 }
 
 .nav {
@@ -33,6 +34,7 @@ body {
 
 .banner {
   margin-top: 10px;
+  margin-bottom: 70px;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -102,4 +104,58 @@ body {
   width: 50%;
   font-size: 30px;
   color: rgb(139, 137, 137);
+}
+
+/* third section is start  */
+.third-container{
+  margin-top: 50px;
+  background: rgb(208, 226, 208);
+  width: full;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-1{
+  background: white;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+.card-1 img{
+  width: 50px;
+}
+.card-1 p{
+  font-size: 20px;
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+/* fourth section start  */
+.fourth-container{
+  background-color: rgb(218, 213, 169);
+  padding: 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  padding-left: 50px;
+
+}
+.des-3{
+  font-size: 20px;
+}
+.img-3 img{
+width: 80%;
+border: 8px solid rgb(212, 207, 207);
 }
